@@ -1,0 +1,21 @@
+# Arquivos do jogo: mantenha-os fora do repositório público.
+*.ipa
+*.win
+*.ios
+*.app/
+
+# Material de assinatura e segredos locais.
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.p8
+*.key
+.env
+.env.*
+!.env.example
+
+# Python.
+__pycache__/
+*.py[cod]
+.venv/
